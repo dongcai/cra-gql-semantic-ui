@@ -14,6 +14,10 @@ export default class ExchangeRates extends Component {
             }
           }
         `}
+        variables={{
+          offset: 0,
+          limit: 10
+        }}
       >
         {({ loading, error, data }) => {
           if (loading) return <p>Loading...</p>;
