@@ -5,6 +5,7 @@ import ApolloClient from "apollo-boost";
 
 import Header from "./Commons/Header";
 import Home from "./Home";
+import Exchange from "./Exchange";
 import { Container } from "semantic-ui-react";
 import "./App.css";
 
@@ -20,7 +21,8 @@ class App extends Component {
           <Header />
           <Container style={{ paddingTop: "7em" }}>
             <Switch>
-              <Route path="/" component={Home} />
+              <Route path="/" exact component={Home} />
+              <Route path="/exchange" component={Exchange} />
             </Switch>
           </Container>
         </div>
