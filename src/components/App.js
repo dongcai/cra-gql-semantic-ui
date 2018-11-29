@@ -10,7 +10,7 @@ import { Container } from "semantic-ui-react";
 import "./App.css";
 
 const client = new ApolloClient({
-  uri: "https://j9p8rmqz3p.lp.gql.zone/graphql"
+  uri: "https://vv87xm15x3.lp.gql.zone/graphql"
 });
 
 class App extends Component {
