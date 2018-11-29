@@ -6,7 +6,7 @@ class Header extends React.Component {
     return (
       <Menu fixed="top" borderless inverted color="blue">
         <Container>
-          <Menu.Item as="a" header>
+          <Menu.Item as="a" href="/" header>
             <Image
               size="mini"
               src="/assets/img/logo.png"
